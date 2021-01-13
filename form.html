@@ -1,0 +1,108 @@
+<!Doctype html>
+	
+   <html>
+	<head>
+	   <title>Form</title>
+	   <meta charset='utf-8'>
+	   <style>
+		.fset1
+		     {
+		        margin: auto;
+			 background: white;
+		     }
+	       .fset2
+		     {
+			margin: 5px 10px 5px 10px;
+			background: white;
+		     }
+		.legend
+		       {
+			 padding: 1px;
+			 border: solid 0.5px ; 
+			}
+	       .Resettt
+		       {
+			  margin-left: 525px;	
+			}
+	       .Block
+		      {
+			padding: 10px;
+		      }
+		.dispaly
+		       {
+				display: inline;
+			}
+		.area
+		     {
+			width: 300px;
+			height: 150px;
+			margin: 10px;
+		     }
+	       .bodyyy
+		       {
+			  background: #EEE;
+			}
+	   </style>
+	</head>
+	<body class = "bodyyy">
+		<fieldset class = "fset1" >
+		    <legend class = "legend">INFORMATION FORM</legend>	
+			<fieldset class = "fset2">
+			  <legend class = "legend">PRESONAL INFOTRMATION</legend>
+			    <div class = "Block"> 
+				 <label>User Name :</label>
+				       <br>
+			          <input type = "text" value="" placeholder="Enter Your User Name">
+				       <br>
+				 <label>E_mail :</label>
+				       <br>
+				   <input type = "text" value="" placeholder="Enter Your E_mail">
+				       <br>
+				 <label>Password :</label>
+				       <br> 
+				   <input type = "password" value="" placeholder="Enter Your Password">
+				       <br>
+				 <label>Gander :</label>
+				       <br>					
+				   <input type = "Radio" value = "Male" name = "gander"> Male
+				   <input type = "Radio" value = "Female" name = "gander"> Female
+				       <br>
+				    <div class= "dispaly">
+				   <input type = "submit" value = "Sign In" class = "Resettt" >
+				      &nbsp;
+			          <input type = "Reset" value = "Reset Your Information">
+				    </div>
+			    </div> 
+			</fieldset>
+			<fieldset class = "fset2">
+				<legend class = "legend">Your Favouraties</legend>
+				   <div class = "Block">
+				    <label>Your Favourate sport</label>
+				       <br><br>
+					<input type="checkbox" value="Foot Ball" name = " s1" >Foot Ball
+					     <br>
+					<input type="checkbox" value="Valley Ball" name = " s2"  >Valley Ball
+					     <br>
+					<input type="checkbox" value="Basket Ball"name = " s3" >Basket Ball
+					     <br>
+					<input type="checkbox" value="Tinnes" name = " s4" >Tinnes
+					<br><br><br>
+				    <label>Your Favourate Food</label>
+				       &nbsp;
+				       <select  size = "1" name="time">
+					   <option>Meat</option>
+					   <option>Sald</option>
+					   <option>Chekien</option>
+					   <option>Fruit</option>
+					   <option>Vegetables</option>
+					</select> 
+				   </div>	
+			</fieldset>
+			            <br>
+				 <label style= "margin-left : 15px; ">Enter Your Massege .. </label>
+				    <br>
+			          <input type = "text area" placeholder = "Your Text Area" class = "area" name=  "massege" >
+			</fieldset> 
+		</fieldset>
+	</body>
+   </html>
